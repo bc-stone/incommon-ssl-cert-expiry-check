@@ -13,9 +13,8 @@ from send_email import send_email
 # Email info - `recipient` can be a single string or
 # a bracketed list of strings
 subject = "Expiring SSL Certificates"
-sender = "certbot@roanoke.edu"
-#recipient = ["stone@roanoke.edu", "rpstubstad@roanoke.edu", "chssmith@roanoke.edu"]
-recipient = ["stone@roanoke.edu"]
+sender = "<CHANGEME>"
+recipient = ["<CHANGEME>"]
 body = "Expiring SSL Certs"
 filename = "expiring_certs.txt"
 
